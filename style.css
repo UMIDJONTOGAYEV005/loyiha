@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary---color: #054c73;
+    --font---color: #333;
+    --font---color1: #666;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+button:active {
+    transform: scale(0.9)
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+
+
+nav {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 122px;
+    align-items: center;
+    position: fixed ;
+    z-index: 10;
+    top: 0;
+
+}
+.nav_eliment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    gap: 65px;
+    align-items: center;
+
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.list li a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--font---color);
+}
+
+.name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: var(--primary---color);
+}
+
+
+
+
+.hero_section {
+    margin-top: 122px;
+    height: 900px;
+    display: flex;
+    background-size: cover;
+    background-image: url(./images/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+}
+
+.hero_section_box {
+    display: flex;
+    border-radius: 10px;
+    width: 643px;
+    height: 443px;
+    background: #dfe9f4;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero_section_box1 {
+    width: 559px;
+    height: 365px;
+    /* border:  2px solid red; */
+}
+
+.container1 {
+    margin: auto;
+    display: flex;
+    width: 1280px;
+    justify-content: flex-end;
+
+
+}
+
+.hero_section_box1 span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.19em;
+    color: var(--font---color);
+}
+
+.hero_section_box1 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 125%;
+    color: var(--primary---color);
+}
+
+.hero_section_box1 p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 217%;
+    color: var(--font---color);
+}
+
+.hero_section_box1 button {
+    border-radius: 50px;
+    padding: 25px;
+    width: 229px;
+    height: 70px;
+    background: var(--primary---color);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+}
+
+.hero_footer {
+    display: flex;
+    gap: 125px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background: #f2f5ff;
+}
+
+.hero_footer_box {
+    display: flex;
+    width: 337px;
+    gap: 27px;
+    height: 55px;
+}
+
+.hero_footer_box h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--font---color);
+}
+
+.hero_footer_box p {
+    width: 266px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--font---color);
+}
+
+
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+
+.section1 h2 {
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--font---color);
+    width: 359px;
+}
+
+.section1 p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: var(--font---color1);
+    margin-bottom: 60px;
+}
+
+.section1_box {
+    display: flex;
+    width: 1145px;
+    height: 472px;
+    gap: 40px;
+    align-items: flex-end;
+    margin: 0 auto;
+    margin-bottom: 60px;
+
+}
+
+.card1 {
+    margin-bottom: 38px;
+}
+
+
+.section2 {
+    display: flex;
+    background: #f2f5ff;
+
+}
+
+.section2_left {
+    width: 514px;
+    height: 279px;
+}
+
+.section2_right {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    width: 600px;
+    height: 754px;
+    margin: 60px 0;
+
+}
+
+.card_sphera {
+    width: 372px;
+}
+
+.card_absalute {
+    position: absolute;
+    left: 0;
+}
+
+.section2_elements {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+}
+
+.section2_left h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--font---color);
+    margin-bottom: 20px;
+}
+
+.section2_left p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 195%;
+    color: var(--font---color1);
+    margin-bottom: 30px;
+}
+
+.section2_left button {
+    border-radius: 50px;
+    padding: 24px;
+    width: 228px;
+    height: 68px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    background: var(--primary---color);
+
+}
+
+
+.section3 h2 {
+    width: 314px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--font---color);
+
+}
+
+.section3 {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: var(--font---color1);
+    margin-bottom: 50px;
+}
+
+.section3_box {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section3_box_list {
+    display: flex;
+    justify-content: center;
+    gap: 321px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+    color: var(--font---color);
+}
+
+.section4 h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--font---color);
+    margin-bottom: 20px;
+}
+
+.section4 {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: var(--font---color1);
+}
+
+.section4_box {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 570px;
+    width: 1200px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+.section4_box1 {
+    position: relative;
+}
+
+.card_number {
+    position: absolute;
+    right: 145px;
+    bottom: 115px;
+}
+
+.CARD {
+    width: 381px;
+    height: 400px;
+}
+
+.section4_box1 h2 {
+    margin-top: 75px;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--font---color);
+}
+
+.section4_box1 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: var(--font---color1);
+    margin-top: 10px;
+}
+
+hr {
+    height: 1px;
+    margin-bottom: 60px;
+
+    background: #d7d6d6;
+}
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    background: #f2f5ff;
+    height: 365px;
+}
+
+
+.section5 h2 {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: var(--font---color);
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.section5 p {
+    width: 514px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 195%;
+    text-align: center;
+    color: var(--font---color1);
+}
+
+.section5_box {
+    position: relative;
+
+}
+
+.email_section {
+    width: 486px;
+    height: 70px;
+    padding-left: 25px;
+    margin-left: 15px;
+
+}
+
+.input_email button {
+    border: 1px solid #011c42;
+    border-radius: 3px;
+    width: 153px;
+    height: 70px;
+    background: var(--primary---color);
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    right: 0;
+
+}
+
+footer {
+    display: flex;
+    background: #03344f;
+}
+
+.footer_section {
+    display: flex;
+}
+
+.footer_left {
+    margin-top: 50px;
+    width: 400px;
+    height: 210px;
+    column-gap: 30px;
+
+}
+
+.footer_left h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer_left p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 219%;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+.footer_right {
+    margin-top: 60px;
+    margin-left: 25px;
+    height: 240px;
+    margin-bottom: 100px;
+}
+
+.footer_right h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 23px;
+}
+
+.footer_images{
+    display: flex;
+    gap: 21px;
+}
